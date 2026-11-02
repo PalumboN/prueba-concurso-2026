@@ -1,0 +1,9 @@
+import example.pepita
+
+describe "group of tests for pepita" {
+
+  test "pepita has the correct image" {
+    assert.equals("pepita.png", pepita.image())
+  }
+
+}
